@@ -30,10 +30,12 @@ export function NoteCard({ note }: NoteCardProps) {
 
                 <div className="flex flex-1 flex-col gap-3 p-5">
 
+                  {/* Data - Hora */}
                   <span className='text-sm font-medium text-slate-300'>
                     {formatDistanceToNow(note.date, { locale: ptBR, addSuffix: true })}
                   </span>
-          
+
+                  {/* Comentário */}
                   <p className='text-sm leading-6 text-slate-400'>
                     {note.content}
                   </p>
