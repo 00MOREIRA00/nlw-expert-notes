@@ -11,3 +11,14 @@ Para fazer o tratamento das datas, usamos uma lib chamada Date-Fns
 
 # Icones 
 Para utilizar icones usamos o lucide-react
+
+
+# Sonner
+Utilizado para criar aqueles avisos no canto da tela
+
+
+
+
+
+Na hora de criar a variavel boolean, o nome deveria ser como uma pergunta 
+Exemplo: shoudShowOnboarding = true
