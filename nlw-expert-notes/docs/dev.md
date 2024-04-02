@@ -19,6 +19,9 @@ Utilizado para criar aqueles avisos no canto da tela
 
 
 
+npm install -D @types/dom-speech-recognition
+
+
 
 Na hora de criar a variavel boolean, o nome deveria ser como uma pergunta 
 Exemplo: shoudShowOnboarding = true
