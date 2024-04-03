@@ -9,6 +9,7 @@ interface NoteCardProps {
       date: Date
       content: string
       }
+      
     onNoteDeleted: (id: string) => void
 }
 

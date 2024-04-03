@@ -44,8 +44,10 @@ export function App() {
   }
 
   function onNoteDeleted(id: string) {
-    const notesArray = notes. filter(note => {
-        return note.id =! id
+    console.log(id)
+
+    const notesArray = notes.filter((note) => {
+        return note.id !== id
     })
 
     setNotes(notesArray)
